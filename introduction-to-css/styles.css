@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Corinthia&family=Roboto+Slab:wght@200&display=swap');
 
 html {
     font-family: 'Raleway', sans-serif;
@@ -6,13 +7,16 @@ html {
 }
 
 body {
-    margin: 0;
+    margin: 20;
 }
 
 header {
     text-align: center;
     background-color: #6b469a;
-    padding: 10px;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Corinthia', cursive;
+    font-size: 20px;
 }
 
 h1 {
@@ -31,12 +35,15 @@ nav {
     margin: 10px;
     padding: 10px;
     background-color: #999999;
+    width: 20em;
 }
 
 a {
     color: #fff;
     text-decoration: none;
     padding: 5px;
+    margin: 10px;
+    padding: 20px;
 }
 
 a:hover {
@@ -50,17 +57,28 @@ div {
 }
 
 img {
-    width: 100%;
-    height: 60vh;
+    width: 300px;
+    height: 200px;
     object-fit: cover;
     object-position: bottom;
 }
 
 footer {
     text-align: center;
-    background-color: #6b469a;
+    background-color: #E8DAEF;
     padding: 10px;
     color: #fff;
+    margin: 20px;
+    padding: 40px;
 }
 
+nav a {
+    display: block
+}
+
+.main-image {
+    width:300px; 
+    height: 200px;
+    border: 3px dashed orange;
+}
 /* Your code here */
