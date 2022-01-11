@@ -16,7 +16,7 @@ h1 {
 /*** Media Queries Below ***/
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
+@media (max-width: 576px) { 
     body {
         background-color: orange;
     }

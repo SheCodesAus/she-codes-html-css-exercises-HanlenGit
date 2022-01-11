@@ -1,31 +1,63 @@
 .box {
+    margin: 5px;
+    
+
 }
 
 .green-box {
+    height: 100px;
+    background-color: #00bb00;  
 }
 
 .blue-box {
+    height: 200px;
+    background-color: #0099ff;
 }
 
 .grey-box {
+    height: 75px;
+    background-color: #c9c9c9;
 }
 
 /*** Media Queries Below ***/
 
 @media (min-width: 600px) {
     .green-box {
+
+    width: calc(100% * 2);
+    height: 200px;
+
     }
     .blue-box {
+   
+
     }
-    .grey-box {
+    .grey-box  {
+        width: calc(100% ;
+        height: 100px;
+        display: inline-block;
+ 
     }
 }
 
 @media (min-width: 900px) {
+    
     .green-box {
+        width: calc(100% * 2);
+        height: 400px;
     }
+
+}
     .blue-box {
+        width: calc(100% / 3 - 10px);
+        display: inline-block;
+        height: 300px;
+     
     }
     .grey-box {
+        width: calc(100% * 2);
+        display: inline-block;
+        margin: 5px;
+
     }
 }

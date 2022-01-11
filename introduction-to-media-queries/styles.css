@@ -29,4 +29,22 @@ div {
     background-color: #f5deb3;
 }
 
+@media (max-width: 500px) {
+    div {
+        display: inline-block;
+        width: 44%;
+    }
+}
+
+@media (min-width:900px) {
+    div {
+        display: inline;
+        font-size: 16pt;
+        
+    }
+    #div-1, #div-2, #div-3, #div-4 {
+        background-color: crimson;
+    }
+
+}
 /*** Your code here ***/
